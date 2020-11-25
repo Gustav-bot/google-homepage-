@@ -1,0 +1,90 @@
+
+
+<style>
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: hotpink;
+}
+.container-box{
+  flex-shrink: 0;
+  box-sizing: border-box;
+  background: green;
+}
+.nav-bar{
+  display: flex;
+  align-items: center;
+  padding: 6px;
+  height: 60px;
+  background: blue;
+}
+
+.logo{
+    min-height: 150px;
+    max-height: 290px;
+    height: calc(100% - 560px);
+    background: black;
+}
+
+.searchbar{
+    padding: 20px;
+    background: red;
+}
+.low-middle{
+    flex-grow: 1;
+    background: purple;
+}
+.bottomtop{
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: rgba(0,0,0,.54);
+}
+.bottomtop{
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: rgba(0,0,0,.54);
+}
+.bottombot{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+
+
+</style>
+
+
+<html>
+<body>
+<div class="container">
+    <div class="nav-bar container-box">
+    </div>
+    <div class="logo container-box">
+    </div>
+    <div class=" searchbar container-box">
+    </div>
+    <div class="low-middle container-box">
+    </div>
+    <div class="container-box">
+        <div class="bottomtop"> Danmark
+        </div>
+        <div class="bottombot"> 
+        </div>
+    </div>
+  </div>
+</body>
+</html>
+
